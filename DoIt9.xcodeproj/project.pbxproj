@@ -14,6 +14,7 @@
 		D3AAFA991F22899F0084D56E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3AAFA981F22899F0084D56E /* Assets.xcassets */; };
 		D3AAFA9C1F22899F0084D56E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3AAFA9A1F22899F0084D56E /* LaunchScreen.storyboard */; };
 		D3AAFAA41F228BF40084D56E /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AAFAA31F228BF40084D56E /* Task.swift */; };
+		D3AAFAA61F2298080084D56E /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AAFAA51F2298080084D56E /* CreateTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D3AAFA9B1F22899F0084D56E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3AAFA9D1F22899F0084D56E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3AAFAA31F228BF40084D56E /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		D3AAFAA51F2298080084D56E /* CreateTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				D3AAFA8E1F22899F0084D56E /* AppDelegate.swift */,
 				D3AAFA901F22899F0084D56E /* ViewController.swift */,
 				D3AAFA921F22899F0084D56E /* Main.storyboard */,
+				D3AAFAA51F2298080084D56E /* CreateTaskViewController.swift */,
 				D3AAFA981F22899F0084D56E /* Assets.xcassets */,
 				D3AAFA9A1F22899F0084D56E /* LaunchScreen.storyboard */,
 				D3AAFA9D1F22899F0084D56E /* Info.plist */,
@@ -145,6 +148,7 @@
 				D3AAFA911F22899F0084D56E /* ViewController.swift in Sources */,
 				D3AAFA971F22899F0084D56E /* DoIt9.xcdatamodeld in Sources */,
 				D3AAFA8F1F22899F0084D56E /* AppDelegate.swift in Sources */,
+				D3AAFAA61F2298080084D56E /* CreateTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
