@@ -12,7 +12,7 @@
         <!--DoIt9-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" customModule="DoIt9" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="TasksViewController" customModule="DoIt9" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -83,13 +83,16 @@
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aXk-th-qu5">
                                 <rect key="frame" x="163" y="201" width="51" height="31"/>
-                                <connections>
-                                    <action selector="addTapped:" destination="r2W-DT-0MY" eventType="valueChanged" id="Fz1-Kj-NXs"/>
-                                </connections>
                             </switch>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vy5-Y9-fmL">
                                 <rect key="frame" x="172.5" y="262" width="30" height="30"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <bool key="isElement" value="NO"/>
+                                </accessibility>
                                 <state key="normal" title="Add"/>
+                                <connections>
+                                    <action selector="addTapped:" destination="r2W-DT-0MY" eventType="touchUpInside" id="dNu-UO-QKX"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -102,6 +105,7 @@
                             <constraint firstItem="2FT-3q-9nK" firstAttribute="top" secondItem="Cxm-mz-6ag" secondAttribute="bottom" constant="10" id="NgE-A2-hdD"/>
                             <constraint firstItem="2FT-3q-9nK" firstAttribute="centerX" secondItem="P1Y-hP-Vbj" secondAttribute="centerX" id="ZXW-YZ-afW"/>
                             <constraint firstItem="vy5-Y9-fmL" firstAttribute="centerX" secondItem="P1Y-hP-Vbj" secondAttribute="centerX" id="aOO-CN-enh"/>
+                            <constraint firstItem="vy5-Y9-fmL" firstAttribute="centerX" secondItem="P1Y-hP-Vbj" secondAttribute="centerX" id="c5r-2E-p4u"/>
                             <constraint firstItem="vy5-Y9-fmL" firstAttribute="top" secondItem="aXk-th-qu5" secondAttribute="bottom" constant="30" id="nPu-dU-0h7"/>
                             <constraint firstItem="aXk-th-qu5" firstAttribute="centerX" secondItem="P1Y-hP-Vbj" secondAttribute="centerX" id="oAC-eB-r02"/>
                             <constraint firstAttribute="trailingMargin" secondItem="2FT-3q-9nK" secondAttribute="trailing" constant="40" id="ot6-B6-rRT"/>
